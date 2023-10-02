@@ -1,0 +1,189 @@
+.general{
+    width: 100%;
+    display: flex-center;
+    flex-flow: column wrap;
+    flex-direction: column;
+    flex-wrap: nowcolumn;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+}
+
+.imgbsas {
+    width: 100%;
+    height: auto;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: #fff;
+}
+
+.h1imagen {
+    margin-bottom: 20px;
+}
+
+.pimagen {
+    margin-bottom: 30px;
+}
+
+.a1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-width: 5px;
+    border-color: white;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+#a2 {
+    background-color: rgb(0, 150, 0)
+}
+
+.botones-foto1{
+    align-content: left;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;    
+}
+
+.cartas{
+    display: flex-center;
+    justify-content:center;
+}
+
+.card-group{
+    margin: 5px 15% 5px 15%;
+    display: flex-center;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.card{
+    align-items: center;
+}
+
+.alertas-cartas{
+    margin-top:25px;
+    margin-bottom: 0px;
+}
+
+#cartas-titulo{
+    margin-top: -20px;
+}
+
+.badge text-bg-warning{
+    display: flex;
+    align-items: start;
+}
+
+#front{
+    color:white;
+}
+#end{
+    color:green;
+}
+#medium{
+    color:grey;
+}
+
+.titulo {
+    position: center;
+    text-align: center;
+    font: alegreya;
+    margin: 5px;
+}
+
+.h5{
+    color: grey;
+}
+
+#textocartatitulofinal{
+    color:white;
+}
+
+#textocartafinal{
+    color:white;
+}
+
+.a3 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-color:white;
+    border-width:1px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border:5px;
+    border-color:white;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    background-color:#353a40 ;
+}
+.subrayado{
+    border-bottom: 1px dotted #000;
+}
+.btns{
+    width: 100%;
+    background-color: #96c93e;
+    border: 0cm;
+    color: #fff;
+}
+
+footer {
+    background-color: rgba(31,82,112,255);
+    color: #ffffff;
+    padding:20px; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilos para las categorías en el footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#foot{
+    color:white;
+}
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+    /* Estilos para pantallas más grandes, como tabletas y computadoras */
+}
+
+/* Estilos para pantallas pequeñas (por ejemplo, dispositivos móviles) */
+@media screen and (max-width: 767px) {
+    /* Estilos para pantallas más pequeñas, como teléfonos móviles */
+}
